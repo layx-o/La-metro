@@ -4,6 +4,10 @@
 }
 
 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 500px;
     margin: 180px auto;
     padding: 5px 10px;
@@ -12,9 +16,9 @@ div{
 
 body {
     background-image: url("./Assets/Images/la\ metro.jpg");
-   background-size: cover;
+    background-size: cover;
+    background-position: center;
     font-family: 'metro';
-    height: 100vh;
     color: #ffffff;
     text-shadow: 0 0 3px black;
     font-weight: bold;
